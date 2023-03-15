@@ -8,7 +8,6 @@ The run_analysis() function performs the entire analysis, in three stages:
 ## Data retrieval:
 
 1. Retrieves the string representations of different activities that the subjects are engaged in (activity labels)
-
 2. Reads the downloaded training data into a data frame trainingData
 3. Reads numeric labels for the training data into a data frame trainingActivityLabels (i.e., what was the activity for each sample in the training data)
 4. Relabels the training data labels using the string representations of activities gathered in Step 1
@@ -17,7 +16,6 @@ The run_analysis() function performs the entire analysis, in three stages:
 7. Reads numeric labels for the tst data into a data frame testActivityLabels (i.e., what was the activity for each sample in the test data)
 8. Relabels the test data labels using the string representations of activities gathered in Step 1
 9. Reads the (numeric) subject identifiers for all activities in the test data into data frame testSubjects
-
 10. Reads string variable names for the two data sets above (= human-readable column names) into a data frame variables
 
 ## Data reshaping:
