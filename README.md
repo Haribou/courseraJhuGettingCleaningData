@@ -10,14 +10,11 @@ The run_analysis() function performs the entire analysis, in three stages:
 1. Retrieves the string representations of different activities that the subjects are engaged in (activity labels)
 
 2. Reads the downloaded training data into a data frame trainingData
-3. Reads numeric labels for the training data into a data frame trainingActivityLabels (i.e., what was the activity for each sample 
-   in the training data)
+3. Reads numeric labels for the training data into a data frame trainingActivityLabels (i.e., what was the activity for each sample in the training data)
 4. Relabels the training data labels using the string representations of activities gathered in Step 1
 5. Reads the (numeric) subject identifiers for all activities in the training data into data frame trainingSubjects
-
 6. Reads the downloaded test data into a data frame testData
-7. Reads numeric labels for the tst data into a data frame testActivityLabels (i.e., what was the activity for each sample 
-   in the test data)
+7. Reads numeric labels for the tst data into a data frame testActivityLabels (i.e., what was the activity for each sample in the test data)
 8. Relabels the test data labels using the string representations of activities gathered in Step 1
 9. Reads the (numeric) subject identifiers for all activities in the test data into data frame testSubjects
 
@@ -25,11 +22,9 @@ The run_analysis() function performs the entire analysis, in three stages:
 
 ## Data reshaping:
 
-1. Adds columns "subject" and "activity_label" to the left and right of the training data frame, using the subjects and
-   activity labels gathered in Steps 4 and 5
+1. Adds columns "subject" and "activity_label" to the left and right of the training data frame, using the subjects and activity labels gathered in Steps 4 and 5
 2. Drops all variables from trainingData that are not "means" or "standard deviations"
-3. Adds columns "subject" and "activity_label" to the left and right of the test data frame, using the subjects and
-   activity labels gathered in Steps 8 and 9
+3. Adds columns "subject" and "activity_label" to the left and right of the test data frame, using the subjects and activity labels gathered in Steps 8 and 9
 4. Drops all variables from testData that are not "means" or "standard deviations"
 5. Merges trainingData and testData row-wise resulting in a combined data frame
 
