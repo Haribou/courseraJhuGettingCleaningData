@@ -7,6 +7,7 @@ The data used in this project is contained in the "UCI HAR Dataset". It contains
 - [UCI HAR Dataset/features.txt](https://github.com/Haribou/courseraJhuGettingCleaningData/blob/main/UCI%20HAR%20Dataset/features.txt)
 - [UCI HAR Dataset/train](https://github.com/Haribou/courseraJhuGettingCleaningData/tree/main/UCI%20HAR%20Dataset/train)
 - [UCI HAR Dataset/test](https://github.com/Haribou/courseraJhuGettingCleaningData/tree/main/UCI%20HAR%20Dataset/test)
+
 respectively.
 
 The tabular data produced by the analysis when executing *run_analysis()* is in the file [activitiesDataAnalysis.txt](https://github.com/Haribou/courseraJhuGettingCleaningData/blob/main/activitiesDataAnalysis.txt) in this repository.
